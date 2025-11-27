@@ -31,14 +31,14 @@ Aplikasi ini mencakup pemenuhan tugas untuk poin-poin berikut:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 * **Bahasa Pemrograman:** PHP (Native)
 * **Database:** MySQL
 * **Frontend:** HTML, CSS (Bootstrap)
 
 ---
 
-## 📂 Struktur Database
+## Struktur Database
 
 Untuk menjalankan aplikasi ini, silakan buat database dan jalankan query SQL berikut di **phpMyAdmin** (Tab SQL):
 
