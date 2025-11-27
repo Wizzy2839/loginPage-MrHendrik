@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #00c6ff;
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.3);
+}
+
+.btn-login, .btn-logout {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-logout {
+    width: auto;
+    padding: 8px 20px;
+    background: #ff416c; /* Merah biar beda */
+    background: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+.btn-login:hover {
+    transform: scale(1.02);
+}
